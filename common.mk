@@ -98,16 +98,25 @@ PRODUCT_PACKAGES += \
     audio.primary.lahaina \
     audio.r_submix.default \
     audio.usb.default \
+    liba2dpoffload \
     libaudiopreprocessing \
+    libbatterylistener \
     libbundlewrapper \
+    libcomprcapture \
     libdownmix \
     libdynproc \
     libeffectproxy \
+    libexthwplugin \
+    libhdmiedid \
+    libhfp \
     libldnhncr \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libreverbwrapper \
+    libsndmonitor \
+    libtinycompress \
     libvisualizer \
+    libvolumelistener \
     sound_trigger.primary.lahaina
 
 PRODUCT_COPY_FILES += \

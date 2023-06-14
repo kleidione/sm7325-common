@@ -78,6 +78,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    libldacBT_bco
+
 # Ant
 PRODUCT_PACKAGES += \
     com.dsi.ant@1.0.vendor

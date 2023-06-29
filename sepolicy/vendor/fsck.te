@@ -1,1 +1,2 @@
 allow fsck self:capability kill;
+allow fsck vendor_modem_block_device:blk_file { read write };

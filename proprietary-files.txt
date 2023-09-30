@@ -1,5 +1,58 @@
 # All unpinned blobs below are extracted from dubai_g-user 13 T1RD33.116-33-3 f829db-a0c97 release-keys.
 
+# ADSP
+vendor/bin/adsprpcd
+vendor/bin/dspservice
+vendor/bin/loadalgo
+vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc
+vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc
+vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
+vendor/lib/vendor.qti.hardware.dsp@1.0.so
+vendor/lib64/libadsp_default_listener.so
+vendor/lib64/libloadalgo_stub.so
+vendor/lib64/vendor.qti.hardware.dsp@1.0.so
+
+# ADSP modules
+vendor/lib/rfsa/adsp/bm2n06.bin
+vendor/lib/rfsa/adsp/bm2n08.bin
+vendor/lib/rfsa/adsp/bm2n12.bin
+vendor/lib/rfsa/adsp/bm2n13.bin
+vendor/lib/rfsa/adsp/bm2n14.bin
+vendor/lib/rfsa/adsp/bm2n15.bin
+vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so
+vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so
+vendor/lib/rfsa/adsp/libQ6MSFR_manager_skel.so
+vendor/lib/rfsa/adsp/libQnnHtpV68Skel.so
+vendor/lib/rfsa/adsp/libSuperSensor_skel.so
+vendor/lib/rfsa/adsp/libVppAisQnnHtp.so
+vendor/lib/rfsa/adsp/libVppFrcQnnHtp.so
+vendor/lib/rfsa/adsp/libVppQnnHtp.so
+vendor/lib/rfsa/adsp/libadsp_jpege_skel.so
+vendor/lib/rfsa/adsp/libapps_mem_heap.so
+vendor/lib/rfsa/adsp/libarcsoft_hdrplus_se_hvx_skel.so
+vendor/lib/rfsa/adsp/libbitml_nsp_skel.so
+vendor/lib/rfsa/adsp/libbitml_nsp_v2_skel.so
+vendor/lib/rfsa/adsp/libcamera_nn_skel.so
+vendor/lib/rfsa/adsp/libcvpdsp_2_1.so
+vendor/lib/rfsa/adsp/libdspCV_skel.so
+vendor/lib/rfsa/adsp/libdsp_streamer_binning.so
+vendor/lib/rfsa/adsp/libfastcvadsp.so
+vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
+vendor/lib/rfsa/adsp/libhdr_skel.so
+vendor/lib/rfsa/adsp/libmctfengine_skel.so
+vendor/lib/rfsa/adsp/libmobilenet_dsp_frc.so
+vendor/lib/rfsa/adsp/libmobilenet_dsp_frc_networks.so
+vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
+vendor/lib/rfsa/adsp/libscveT2T_skel.so
+vendor/lib/rfsa/adsp/libsns_device_mode_skel.so
+vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
+vendor/lib/rfsa/adsp/libsuper_res_networks.so
+vendor/lib/rfsa/adsp/libvpp_ais_networks.so
+vendor/lib/rfsa/adsp/libvpt_action_recognition.so
+vendor/lib/rfsa/adsp/libworker_pool.so
+vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so
+vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
+
 # ANT+
 system_ext/lib/com.qualcomm.qti.ant@1.0.so
 system_ext/lib64/com.qualcomm.qti.ant@1.0.so
@@ -33,6 +86,7 @@ vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
 vendor/lib/soundfx/libshoebox.so
+vendor/lib/soundfx/libspeakerbundle.so
 vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libqcreverb.so
